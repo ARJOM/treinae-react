@@ -1,0 +1,28 @@
+.initial {
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: flex-start;
+}
+
+.corpo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
